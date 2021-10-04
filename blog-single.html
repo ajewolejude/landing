@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" xmlns:th="http://www.thymeleaf.org"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" xmlns:th="http://www.thymeleaf.org"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" xmlns:th="http://www.thymeleaf.org"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<!--<![endif]-->
+<head>
+	<title>Grabbs - href="./</title>
+	<meta name="author" content="Nile-Theme">
+	<meta name="robots" content="index follow">
+	<meta name="googlebot" content="index follow">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="cargo, clean, contractor, corporate, freight, industry, localization, logistics, modern, shipment, transport, transportation, truck, trucking">
+	<meta name="description" content="Redefining Standards...">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link rel="icon" href="./img/grabbsblack.png" type="image/png">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800%7CPoppins:300i,300,400,500,600,700,400i,500%7CDancing+Script:700%7CDancing+Script:700%7CGreat+Vibes:400%7CPoppins:400%7CDosis:800%7CRaleway:400,700,800&amp;subset=latin-ext" rel="stylesheet">
+	<!-- animate -->
+	<link rel="stylesheet" href="./landing/assets/css/animate.css" />
+	<!-- owl Carousel assets -->
+	<link href="./landing/assets/css/owl.carousel.css" rel="stylesheet">
+	<link href="./landing/assets/css/owl.theme.css" rel="stylesheet">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="./landing/assets/css/bootstrap.min.css">
+	<!-- hover anmation -->
+	<link rel="stylesheet" href="./landing/assets/css/hover-min.css">
+	<!-- flag icon -->
+	<link rel="stylesheet" href="./landing/assets/css/flag-icon.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="./landing/assets/css/style.css">
+	<!-- elegant icon -->
+	<link rel="stylesheet" href="./landing/assets/css/elegant_icon.css">
+
+	<!-- jquery library  -->
+	<script src="./landing/assets/js/jquery-3.2.1.min.js"></script>
+	<!-- fontawesome  -->
+	<link rel="stylesheet" href="./landing/assets/fonts/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<!--  Header  -->
+<header>
+	<div id="fixed-header-dark" class="header-output fixed-header fixed-header-dark">
+		<div class="header-output">
+			<div class="container header-in">
+
+				<!-- Up Head -->
+				<div class="up-head d-lg-block">
+					<div class="row">
+						<div class="col-xl-10 col-lg-12">
+							<div class="row">
+								<div class="col-md-3.5"><i class="fa fa-phone margin-right-10px"></i> +2348035453965, +2347056422661</div>
+								<div class="col-md-3"><i class="fa fa-envelope-o margin-right-10px"></i> info@grabbs.com.ng</div>
+								<div class="col-md-6"><i class="fa fa-map-marker margin-right-10px"></i> 1 Ibukunoluwa Awosika Street, Idado, Lekki. Lagos</div>
+							</div>
+						</div>
+						<div class="col-xl-2 d-xl-block">
+							<div class="row">
+
+
+								<div class="col-lg-12">
+									<!--  Social -->
+									<ul class="social-media list-inline text-right margin-0px text-white">
+										<li class="list-inline-item"><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li class="list-inline-item"><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+										<li class="list-inline-item"><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										<li class="list-inline-item"><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li class="list-inline-item"><a class="rss" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+									</ul>
+									<!-- // Social -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- // Up Head -->
+
+				<div class="position-relative">
+					<div class="row">
+						<div class="col-lg-3 col-md-12">
+							<a id="logo" th:href="@{/}" class="d-inline-block margin-tb-15px"><img src="./img/grabbs.png" height = "70px" alt=""></a>
+							<a class="mobile-toggle padding-15px background-second-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
+						</div>
+						<div class="col-lg-7 col-md-12 position-inherit">
+							<ul id="menu-main" class="nav-menu float-xl-left text-lg-center link-padding-tb-25px white-link dropdown-dark">
+								<li><a href="index.html">Home</a>
+
+								</li>
+								<li><a href="page-about-us.html">About Us </a></li>
+
+								</li>
+								<li ><a href="./index.html#services">Services</a>
+
+								</li>
+
+								<li ><a  href="blog-single.html">Jobs</a>
+
+								</li>
+
+								<li ><a href="#">Login</a>
+
+								</li>
+
+								<li ><a href="#">Register Truck</a>
+
+								</li>
+
+
+
+
+							</ul>
+
+
+						</div>
+						<div class="col-lg-2 col-md-12   d-lg-block">
+							<a th:href="@{/request/new}" class="btn btn-sm border-radius-30 margin-tb-20px text-white  background-main-color  box-shadow float-right padding-lr-20px margin-left-30px d-block">
+								<i class="fa fa-truck margin-right-10px"></i>  Request for Truck
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- // Header  -->
+
+<div class="page-title">
+	<div class="container">
+		<div class="padding-tb-120px">
+			<div class="padding-top-120px">
+				<h1>Jobs</h1>
+				<ol class="breadcrumb">
+					<li><a th:href="@{/}">Home</a></li>
+					<li class="active">Jobs</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="section padding-tb-100px section-ba-1">
+	<div class="container">
+
+		<div class="row" >
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Jobs</h3>
+						<p>Contact us, if you are a truck owner.</p>
+						<div class="text">
+							<span class="font-weight-500 text-uppercase">+234 803 545 3965, +234 705 642 2661</span>
+						</div>
+						<div class="text">
+							<span class="title-in">Mail Us :</span><br>
+							<span class="font-weight-500 text-uppercase">info@grabbs.com.ng</span>
+						</div>
+						<div class="actions pull-right">
+
+							<i class="fa fa-expand"></i>
+							<i class="fa fa-chevron-down"></i>
+						</div>
+						<br>
+					</div>
+
+					<div class="panel-body table-responsive">
+						<table id="requestTable" class="table table-striped table-bordered" cellspacing="0"
+							   width="100%">
+							<thead>
+							<tr>
+								<th style="display:none">#</th>
+
+								<th>Start</th>
+								<th>Destination</th>
+								<th>Purpose</th>
+								<th>Tonage</th>
+								<th>Cargo</th>
+								<th>Cargo Type</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr th:each="truckRequest : ${truckRequestList}">
+								<td style="display:none" th:text="${truckRequest.id}"></td>
+
+								<td th:text="${truckRequest.start_address}"></td>
+								<td th:text="${truckRequest.dest_address}"></td>
+								<td th:text="${truckRequest.purpose}"></td>
+								<td th:text="${truckRequest.truck_weight}"></td>
+								<td th:text="${truckRequest.truck_type}"></td>
+								<td th:text="${truckRequest.truck_sub_type}"></td>
+							</tr>
+							</tbody>
+						</table>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+<footer class="layout-dark" id="footer">
+	<div class="container padding-tb-100px">
+		<div class="row">
+
+			<div class="col-lg-3 col-md-6">
+				<div class="about-us sm-mb-45px">
+					<div class="logo-footer margin-bottom-35px">
+						<a  th:href="@{/}"><img src="./img/grabbs.png" height = "50px"  alt=""></a>
+						<p> Redefining Standards...</p>
+					</div>
+					<div class="text margin-bottom-35px">
+						Grabbs Integrated Services Ltd (GRABBS) is a Transport and Logistics company operating out of Lagos, Nigeria with a focus on the local and regional supply chain market.
+					</div>
+					<a href="page-about-us.html" class="nile-bottom sm">Read More</a>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-6">
+				<div class="nile-widget widget_nav_menu sm-mb-45px">
+					<h2 class="title">Our Services</h2>
+					<ul class="footer-menu">
+						<li><a >Haulage </a></li>
+						<li><a >Truck sales </a></li>
+						<li><a >Truck Maintenance & Repairs  </a></li>
+						<li><a >Distribution and Storage </a></li>
+						<li><a >Heavy duty spare parts </a></li>
+						<li><a >Freight forwarding </a></li>
+						<li><a >Fleet Management </a></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="col-lg-3 col-md-6">
+				<div class="nile-widget widget_nav_menu sm-mb-45px">
+					<h2 class="title">Site Pages</h2>
+					<ul class="footer-menu">
+						<li><a href="#">Home </a></li>
+						<li><a href="#">Login </a></li>
+						<li ><a href="#">Register Truck</a></li>
+
+						<li><a href="./home-1.html#about">About Us </a></li>
+						<li><a href="blog-single.html">Jobs </a></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="col-lg-3 col-md-6">
+				<div class="nile-widget">
+					<div class="margin-bottom-60px">
+						<div class="contact-info opacity-9">
+							<div class="icon margin-top-5px"><span class="icon_pin_alt"></span></div>
+							<div class="text">
+								<span class="font-weight-500 text-uppercase">1 Ibukunoluwa Awosika Street, Idado, Lekki. Lagos</span>
+							</div>
+						</div>
+					</div>
+					<div class="call_center">
+						<div class="contact-info opacity-9">
+							<div class="icon  margin-top-5px"><span class="icon_phone"></span></div>
+							<div class="text">
+								<span class="font-weight-500 text-uppercase">+234 803 545 3965, +234 705 642 2661</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="copy-right">
+		<div class="container padding-tb-50px">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="copy-right-text text-lg-left text-center sm-mb-15px"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a> </div>
+				</div>
+				<div class="col-lg-6">
+					<!--  Social -->
+					<ul class="social-media list-inline text-lg-right text-center margin-0px text-white">
+						<li class="list-inline-item"><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a class="rss" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+					</ul>
+					<!-- // Social -->
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="./landing/assets/js/YouTubePopUp.jquery.js"></script>
+<script src="./landing/assets/js/owl.carousel.min.js"></script>
+<script src="./landing/assets/js/imagesloaded.min.js"></script>
+<script src="./landing/assets/js/custom.js"></script>
+<script src="./landing/assets/js/popper.min.js"></script>
+<script src="./landing/assets/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./js/src/jquery.validate.min.js">
+
+</script>
+
+<script src="./js/vendor/jquery-1.11.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery.navgoco.min.js"></script>
+<script src="./js/pace.min.js"></script>
+<script src="./js/jquery.fullscreen-min.js"></script>
+<script src="./js/src/app.js"></script>
+<!--Page Level JS-->
+<script src="./js/jquery.countTo.js"></script>
+<script src="./js/skycons.js"></script>
+<script src="./js/moment.min.js"></script>
+<script src="./js/daterangepicker.js"></script>
+<!-- ChartJS  -->
+<script src="./js/chartjs/Chart.min.js"></script>
+<!-- Morris  -->
+<script src="./js/morris.min.js"></script>
+<script src="./js/raphael.2.1.0.min.js"></script>
+<!-- Vector Map  -->
+<script src="./js/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="./js/jquery-jvectormap-world-mill-en.js"></script>
+<!-- Gauge  -->
+<script src="./js/gauge.min.js"></script>
+<script src="./js/gauge-demo.js"></script>
+<!-- Calendar  -->
+<script src="./js/clndr.js"></script>
+<script src="./js/clndr-demo.js"></script>
+<script src="./js/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<!-- Switch -->
+<script src="./js/switchery.min.js"></script>
+<!--Load these page level functions-->
+<script>
+    $(document).ready(function() {
+        app.dateRangePicker();
+        app.chartJs();
+        app.weather();
+        app.spinStart();
+        app.spinStop();
+    });
+    </script>
+
+<!--Page Leve JS -->
+<!--    <script src="./js/jquery.dataTables.js"></script>-->
+<!--    <script src="./js/dataTables.bootstrap.js"></script>-->
+
+<!--    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>-->
+
+<!--    <script src="https://nightly.datatables.net/js/jquery.dataTables.js"></script>-->
+
+<!--    <script src=".//code.jquery.com/jquery-3.4.1.min.js"></script>-->
+<script src=".//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src=".//cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+<script src=".//cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src=".//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src=".//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src=".//cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+<script src=".//cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>
+<script src=".//cdn.datatables.net/buttons/1.5.6/js/buttons.colVis.min.js"></script>
+<script>
+    $(document).ready(function() {
+    // get current URL path and assign 'active' class
+	var pathname = window.location.pathname;
+	$('.nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+	$('ul li a').click(function(){ $('li a').removeClass("active"); $(this).addClass("active"); });
+
+
+	$('#mateTable').dataTable( {
+            order: [ [0, "desc"] ],
+            } );
+
+
+       $('#driverTable').dataTable( {
+           order: [ [0, "desc"] ],
+            } );
+
+         $('#truckTable').dataTable( {
+         dom: 'Blfrtip',
+             buttons: [
+            {
+
+                extend: 'copyHtml5',
+                className: 'btn btn-primary' ,
+                exportOptions: {
+                    columns: [ 1, 2, 3, 4, 5, 6 ]
+                },
+                filename: 'Truck Data Exported',
+                title: 'Truck Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            },
+            {
+                extend: 'excelHtml5',
+                className: 'btn btn-info' ,
+                exportOptions: {
+                   columns: [ 1, 2, 3, 4, 5, 6 ]
+                },
+                filename: 'Truck Data Exported',
+                title: 'Truck Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            },
+            {
+                extend: 'pdfHtml5',
+                className: 'btn btn-success' ,
+                exportOptions: {
+                    columns: [ 1, 2, 3, 4, 5, 6 ]
+                },
+                filename: 'Truck Data Exported',
+                title: 'Truck Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            },
+
+        ],
+            order: [ [0, "desc"] ]
+            } );
+
+
+
+
+            $('#spareTable').dataTable( {
+            order: [ [0, "desc"] ],
+            } );
+
+
+            $('#truckRepairTable').dataTable( {
+            order: [ [0, "desc"] ],
+            } );
+
+
+            $('#jobTable').dataTable( {
+            order: [ [0, "desc"] ],
+            } );
+
+
+            $('#requestTable').dataTable( {
+            order: [ [0, "desc"] ],
+            } );
+
+
+            $('#expenseTable').dataTable( {
+            order: [ [0, "desc"] ],
+            } );
+
+
+            $('#tripTable').dataTable( {
+         dom: 'Blfrtip',
+             buttons: [
+            {
+
+                extend: 'copyHtml5',
+                className: 'btn btn-primary' ,
+                exportOptions: {
+                    columns: [ 1, 2, 3, 4, 5, 6 ]
+                },
+                filename: 'Trip Data Exported',
+                title: 'Trip Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            },
+            {
+                extend: 'excelHtml5',
+                className: 'btn btn-info' ,
+                exportOptions: {
+                   columns: [ 1, 2, 3, 4, 5, 6 ]
+                },
+                filename: 'Trip Data Exported',
+                title: 'Trip Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            },
+            {
+                extend: 'pdfHtml5',
+                className: 'btn btn-success' ,
+                exportOptions: {
+                    columns: [ 1, 2, 3, 4, 5, 6 ]
+                },
+                filename: 'Trip Data Exported',
+                title: 'Trip Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            }
+        ],
+            order: [ [0, "desc"] ]
+            } );
+
+
+            $('#truckOwnerTable').dataTable( {
+         dom: 'Blfrtip',
+             buttons: [
+            {
+
+                extend: 'copyHtml5',
+                className: 'btn btn-primary' ,
+                exportOptions: {
+                    columns: [ 1, 2, 3, 4, 5]
+                },
+                filename: 'Truck Owner Data Exported',
+                title: 'Truck Owner Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            },
+            {
+                extend: 'excelHtml5',
+                className: 'btn btn-info' ,
+                exportOptions: {
+                   columns: [ 1, 2, 3, 4, 5]
+                },
+                filename: 'Truck Owner Data Exported',
+                title: 'Truck Owner Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            },
+            {
+                extend: 'pdfHtml5',
+                className: 'btn btn-success' ,
+                exportOptions: {
+                    columns: [ 1, 2, 3, 4, 5]
+                },
+                filename: 'Truck Owner Data Exported',
+                title: 'Truck Owner Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            }
+        ],
+            order: [ [0, "desc"] ]
+            } );
+
+
+            $('#userTable').dataTable( {
+            order: [ [0, "desc"] ],
+            } );
+
+
+            $('#accessoryTable').dataTable( {
+            order: [ [0, "desc"] ],
+            } );
+
+
+            $('#tyreTable').dataTable( {
+            order: [ [0, "desc"] ],
+            } );
+
+            $('#merchantTable').dataTable( {
+         dom: 'Blfrtip',
+             buttons: [
+            {
+
+                extend: 'copyHtml5',
+                className: 'btn btn-primary' ,
+                exportOptions: {
+                    columns: [ 1, 2, 3, 4, 5, 6 ]
+                },
+                filename: 'Truck User Data Exported',
+                title: 'Truck User Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            },
+            {
+                extend: 'excelHtml5',
+                className: 'btn btn-info' ,
+                exportOptions: {
+                   columns: [ 1, 2, 3, 4, 5, 6]
+                },
+                filename: 'Truck User Data Exported',
+                title: 'Truck User Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            },
+            {
+                extend: 'pdfHtml5',
+                className: 'btn btn-success' ,
+                exportOptions: {
+                    columns: [ 1, 2, 3, 4, 5, 6 ]
+                },
+                filename: 'Truck User Data Exported',
+                title: 'Truck User Data Exported',
+                messageTop: 'The information in this table is copyright to GRABBS www.grabbs.com.ng .'
+            }
+        ],
+            order: [ [0, "desc"] ]
+            } );
+
+            $('#tyreInTable').dataTable( {
+            "pageLength": 5,
+            } );
+
+    });
+
+  if ($('#selectRole').val() =="Corporate"){
+            var real_url = "/user/corporate/all";
+
+                    $.ajax({
+                        type: 'GET',
+                        url: real_url,
+                        success: function(data){
+                            var slctOwner=$('#selectOwner'), option="";
+                            slctOwner.empty();
+
+                            for(var i=0; i<data.length; i++){
+                                option = option + "<option value='"+data[i].id + "'>"+data[i].company_name + "</option>";
+                            }
+                            slctOwner.append(option);
+                            $('#selectOwner').val($('#owner_id_holder').val()) ;
+                        },
+                        error:function(){
+                            alert("error");
+                        }
+
+                    });
+
+            } else if ($('#selectRole').val() =="Private"){
+
+
+            var real_url = "/user/private/all";
+
+                         $.ajax({
+                            type: 'GET',
+                            url: real_url,
+                            success: function(data){
+                                var slctOwner=$('#selectOwner'), option="";
+                                slctOwner.empty();
+
+                                for(var i=0; i<data.length; i++){
+                                    option = option + "<option value='"+data[i].id + "'>"+data[i].first_name + " " +data[i].last_name +"</option>";
+                                }
+                                slctOwner.append(option);
+                                $('#selectOwner').val($('#owner_id_holder').val()) ;
+                            },
+                            error:function(){
+                                alert("error");
+                            }
+
+                        });
+            }
+
+
+
+    $('#selectRole').change(function(){
+            if ($('#selectRole').val() =="Corporate"){
+            var real_url = "/user/corporate/all";
+
+                    $.ajax({
+                        type: 'GET',
+                        url: real_url,
+                        success: function(data){
+                            var slctOwner=$('#selectOwner'), option="";
+                            slctOwner.empty();
+
+                            for(var i=0; i<data.length; i++){
+                                option = option + "<option value='"+data[i].id + "'>"+data[i].company_name + "</option>";
+                            }
+                            slctOwner.append(option);
+                        },
+                        error:function(){
+                            alert("error");
+                        }
+
+                    });
+
+            } else if ($('#selectRole').val() =="Private"){
+
+
+            var real_url = "/user/private/all";
+
+                         $.ajax({
+                            type: 'GET',
+                            url: real_url,
+                            success: function(data){
+                                var slctOwner=$('#selectOwner'), option="";
+                                slctOwner.empty();
+
+                                for(var i=0; i<data.length; i++){
+                                    option = option + "<option value='"+data[i].id + "'>"+data[i].first_name + " " +data[i].last_name +"</option>";
+                                }
+                                slctOwner.append(option);
+                            },
+                            error:function(){
+                                alert("error");
+                            }
+
+                        });
+            }
+
+
+        });
+      $('#popover-left,#popover-top,#popover-bottom,#popover-right').popover()
+        $('#tooltip-left,#tooltip-top,#tooltip-bottom,#tooltip-right').tooltip()
+    </script>
+<script src="./js/src/all.js">
+
+
+
+</script>
+<link href=
+			  'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
+	  rel='stylesheet'>
+
+
+<script src=
+				"https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" >
+</script>
+
+<script>
+        $(document).ready(function() {
+
+            $(function() {
+              $( ".my_date_picker" ).datepicker({
+        dateFormat: 'yy-mm-dd'
+    });
+            });
+        })
+    </script>
+
+
+
+</body>
+
+
+<!-- blog-single01:39-->
+</html>
